@@ -1,0 +1,17 @@
+#footer {
+    background-color: #1F2122;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer .logoFooter {
+    width: 15%;  
+}
+
+.barra-footer {
+    width: 100%;
+    color: #D8BF9F;
+    justify-content: center;
+    display: flex;
+}

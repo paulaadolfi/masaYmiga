@@ -1,0 +1,51 @@
+#header
+{
+	padding: 15px 0;
+	top: 0;
+	width: 100%;
+	background-color: #1F2122; 
+}
+
+.logo
+{
+	display: flex;
+    flex-wrap: wrap;
+	width: 23%;
+	align-items: center;
+}
+
+.container nav a
+{
+	color: #D8BF9F;
+	text-decoration: none;
+	font-size: 20px;
+    max-width: 700px;
+	
+}
+
+
+.container nav
+	{
+        width: 100%;
+		text-shadow: 1px 1px 1px grey;
+		background-color: whitesmoke;
+    	border-radius: 15px;
+		
+	}
+	
+.container nav a:hover
+	{
+		color: #CD0000;	
+		font-size: 22px;
+	}
+
+@media(max-width: 767px) {
+	.logo
+	{
+		width: 50%;
+		padding-left: 20px;
+	}
+	.container nav {
+		display: none;
+	}
+}

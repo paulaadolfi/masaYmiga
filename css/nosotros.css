@@ -1,0 +1,64 @@
+#nosotros {
+	background-image: url("https://www.vanillablue.com.au/images/library/VBIimages/2021/CSP/Finger_Food/RH_finger-food-catering.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+  	background-position: center;
+}
+#nosotros .container {
+	background-color: whitesmoke;
+	opacity: 0.9;
+	width: 60%;
+	height: auto;
+	margin-left: auto;
+    margin-right: auto;
+    box-shadow: 20px  whitesmoke;
+	border-radius: 15px;
+    padding: 20px 30px 20px 30px;
+	
+    
+}
+
+#nosotros p
+{
+	font-size: 20px;
+	color: #D8BF9F;
+	text-align: center;
+	text-shadow: 0.5px 0.5px 0.5px grey;
+	
+}
+#nosotros .black
+{
+    color: black;
+	font-size: 19px;
+}
+
+.encontranos  
+{
+    margin: 45px 10px;
+    list-style: none;
+    display: flex;
+	
+}
+
+.encontranos a:hover  
+{
+    background-color:  #CD0000;
+	padding: 15px;
+	border-radius: 15px;
+	
+}
+
+@media(max-width: 767px)
+{
+	#nosotros .container {
+		width: 85%;
+		padding: 10px 15px;
+	}
+
+	.encontranos img  
+	{
+		width: 40%;
+
+	}
+
+}
