@@ -95,16 +95,9 @@
         font-size: 18px;
     }
 
-    #productos .productos-general p {
-        
-        font-size: 15px;
-    }
-
+  
     #productos .resaltado {
-        width: 90%;
         padding: 5px;
-        margin: 10px 0;
-       
     }
     #productos  {
         line-height: 100%;
@@ -112,8 +105,12 @@
     }
     
     #productos ul{
-        flex-wrap: wrap;
-       
+        flex-wrap: wrap; 
+        padding: 0;
+        width: 90%;
         
+    }
+    #productos .productos-general{
+        display: flex;
     }
 }

@@ -12,11 +12,14 @@
     flex-wrap: wrap;
 	width: 23%;
 	align-items: center;
+	border-radius: 150px;
+	margin-bottom: 20px;
+	
 }
 
 .container nav a
 {
-	color: #D8BF9F;
+	color: #CD0000;
 	text-decoration: none;
 	font-size: 20px;
     max-width: 700px;
@@ -35,7 +38,7 @@
 	
 .container nav a:hover
 	{
-		color: #CD0000;	
+		color: #D8BF9F;	
 		font-size: 22px;
 	}
 
@@ -43,8 +46,8 @@
 	.logo
 	{
 		width: 50%;
-		padding-left: 20px;
 	}
+
 	.container nav {
 		display: none;
 	}
